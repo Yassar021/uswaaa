@@ -1,20 +1,21 @@
 export interface ProjectProps {
-  number: string;
-  title: string;
-  description: string;
-  additionalText?: string;
-  linkText: string;
-  linkUrl: string;
+  number?: string;
+  title?: string;
+  description?: string;
+  linkText?: string;
+  linkHref?: string;
+  imageSrc?: string;
+  imageAlt?: string;
 }
 
 export interface ProjectCardProps {
-  number: string;
-  title: string;
-  description: string;
-  linkText: string;
-  linkHref: string;
-  imageSrc: string;
-  imageAlt: string;
+  number?: string;
+  title?: string;
+  description?: string;
+  linkText?: string;
+  linkHref?: string;
+  imageSrc?: string;
+  imageAlt?: string;
 }
 export interface Project extends ProjectCardProps {}
 

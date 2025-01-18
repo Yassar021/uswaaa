@@ -5,9 +5,8 @@ export const Project: React.FC<ProjectProps> = ({
   number,
   title,
   description,
-  additionalText,
   linkText,
-  linkUrl
+  linkHref
 }) => {
   return (
     <div className="mt-28 max-md:mt-10 max-md:mr-1 max-md:max-w-full">
@@ -18,13 +17,13 @@ export const Project: React.FC<ProjectProps> = ({
               {number} / {title}
             </div>
             <div className="mt-7 leading-6">{description}</div>
-            {additionalText && (
+            {/* {additionalText && (
               <div className="mt-10 text-sm tracking-tight leading-4 text-zinc-600 max-md:mr-2.5">
                 {additionalText}
               </div>
-            )}
+            )} */}
             <a
-              href={linkUrl}
+              href={linkHref}
               className="self-start mt-44 underline decoration-auto decoration-solid underline-offset-auto max-md:mt-10"
             >
               {linkText}

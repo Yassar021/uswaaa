@@ -1,29 +1,5 @@
 import { ProjectProps, SocialLinkProps, NavigationItemProps } from './types';
 
-export const projectsData: ProjectProps[] = [
-  {
-    number: "01",
-    title: "Spatial Analysis for Urban Planning",
-    description: "Developed geospatial models to analyze. Leveraged Google Earth Engine for advanced spatial data processing and visualization.",
-    // additionalText: "Sculpted in ZBrush, Retopologized and UVs done in Maya, Textured in Mari, Rendered using Arnold.",
-    linkText: "More shots from this project ↗",
-    linkUrl: "#"
-  },
-  {
-    number: "02",
-    title: " Mapping Environmental Risks,",
-    description: "Conducted risk mapping. Focused on utilizing GIS tools like ArcGIS to assess and visualize potential impacts.",
-    linkText: "See case study →",
-    linkUrl: "#"
-  },
-  {
-    number: "03",
-    title: "Collaborative Mapping Initiative",
-    description: "Worked with [tim/komunitas] on an open-source project to enhance accessibility of spatial data for",
-    linkText: "Project WIP",
-    linkUrl: "#"
-  }
-];
 
 export const projects: ProjectProps[] = [
   {
