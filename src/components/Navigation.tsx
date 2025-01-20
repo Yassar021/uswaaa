@@ -16,7 +16,7 @@ export const Navigation: React.FC<NavigationProps> = ({ items }) => {
     <nav className="relative" role="navigation">
       <button
         onClick={toggleMenu}
-        className="hidden max-md:flex items-center p-2 rounded-lg hover:bg-neutral-200 focus:outline-none focus:ring-2 focus:ring-neutral-900"
+        className="items-center hidden p-2 rounded-lg max-md:flex hover:bg-neutral-200 focus:outline-none focus:ring-2 focus:ring-neutral-900"
         aria-expanded={isOpen}
         aria-controls="mobile-menu"
         aria-label="Open navigation menu"
@@ -52,7 +52,7 @@ export const Navigation: React.FC<NavigationProps> = ({ items }) => {
           <a
             key={item.label}
             href={item.href}
-            className="text-xl font-medium tracking-tighter leading-tight whitespace-nowrap text-neutral-900 hover:text-neutral-700 focus:outline-none focus:ring-2 focus:ring-neutral-900 focus:ring-offset-2 rounded-lg px-2 py-1"
+            className="px-2 py-1 text-xl font-medium leading-tight tracking-tighter rounded-lg whitespace-nowrap text-neutral-900 hover:text-neutral-700 focus:outline-none focus:ring-2 focus:ring-neutral-900 focus:ring-offset-2"
             onClick={() => setIsOpen(false)}
           >
             {item.label}

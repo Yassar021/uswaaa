@@ -9,13 +9,14 @@ export interface ProjectProps {
 }
 
 export interface ProjectCardProps {
-  number?: string;
+  number?: any;
   title?: string;
   description?: string;
   linkText?: string;
   linkHref?: string;
   imageSrc?: string;
-  imageAlt?: string;
+  index?: number;
+  imageAlt?: any;
 }
 export interface Project extends ProjectCardProps {}
 
